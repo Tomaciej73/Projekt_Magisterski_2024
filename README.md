@@ -1,9 +1,5 @@
-# Projekt Magisterski 2024  
-**Autor:** Karkulowski Tomasz 163105  
-**Temat:** Analiza danych z teleskopów astronomicznych  
-**Technologie:** Python z bibliotekami  
-**Przydatne strony:**  
-- https://archive.stsci.edu/pub/kepler/lightcurves/
-- https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS
-- https://www.kaggle.com/code/mayurdalvi/exoplanets-data-visualization#Data-Analysis
-- https://www.kaggle.com/datasets/keplersmachines/kepler-labelled-time-series-data/data?select=exoTest.csv
+# Analiza czasowych szeregów światła
+**Użyto:**
+- LSTM, Metryka ewaluacji, Astropy FITS
+
+**Dane:** [LINK](https://archive.stsci.edu/pub/kepler/lightcurves/0014/001429092/) 

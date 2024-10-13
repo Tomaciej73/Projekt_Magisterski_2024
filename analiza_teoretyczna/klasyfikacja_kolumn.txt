@@ -1,0 +1,12 @@
+Symboliczne kolumny: 
+['Nazwa Planety', 'Gospodarz Planety', 'Metoda Odkrycia', 
+'Instytucja Odkrywająca', 'Typ Spektralny', 'Stosunek Metaliczności Gwiazdy']
+
+Logiczne kolumny: 
+[]
+
+Numeryczne kolumny: 
+['Nr', 'Liczba Gwiazd', 'Liczba Planet', 'Rok Odkrycia', 'Okres Orbitalny (dni)', 
+'Pół Oś Orbity', 'Masa', 'Mimośród', 'Strumień Insolacji', 
+'Temperatura Równowagi', 'Efektywna Temperatura Gwiazdy', 'Promień Gwiazdy', 'Masa Gwiazdy', 
+'Metaliczność Gwiazdy', 'Grawitacja Powierzchniowa Gwiazdy', 'Odległość', 'Wielkość Magnitudo (Gaia)']

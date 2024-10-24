@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.metrics import accuracy_score, mean_squared_error, r2_score
 import io
 from PIL import Image as PILImage
-
+import os
 
 def load_and_preprocess_data():
     # Wczytanie danych
@@ -285,12 +285,12 @@ def main():
         outputs="text",
         title="Regresja dla różnych wartości planet"
     )
-
+    port = int(os.environ.get('PORT', 7860))
     # Uruchamianie interfejsu z zakładkami i ustawienie share=True
     gr.TabbedInterface(
         [classifier_interface, regression_interface, visualization_interface],
         ["Klasyfikacja", "Regresja", "Wizualizacje"]
-    ).launch(share=True)
+    ).launch(server_name="0.0.0.0", server_port=port)
 
 
 if __name__ == "__main__":

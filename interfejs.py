@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import io
+import os
 from PIL import Image as PILImage
 
 def load_data():
@@ -38,7 +39,7 @@ def plot_visualization(plot_type):
     buf.seek(0)
     img = PILImage.open(buf)
     return img
-
+port = int(os.environ.get('PORT', 7861))
 visualization_interface = gr.Interface(
     fn=plot_visualization,
     inputs=gr.Dropdown([
@@ -50,4 +51,4 @@ visualization_interface = gr.Interface(
     title="Wizualizacja danych pulsarów"
 )
 
-visualization_interface.launch(share=True)
+visualization_interface.launch(server_name="0.0.0.0", server_port=port)

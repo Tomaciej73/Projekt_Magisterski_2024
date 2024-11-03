@@ -5,7 +5,7 @@
 
 **Stronka egzoplanety:** [LINK](https://projekt-magisterski-2024.onrender.com)  
 **Stronka wykrywanie pulsarów:** [LINK](https://pulsar-detection.onrender.com)  
-**Stronka krzywe światła fotometrycznego:** [LINK](https://projekt-magisterski-2024.onrender.com)
+**Stronka analiza czasowych szeregów światła:** [LINK](https://projekt-magisterski-2024.onrender.com)
 
 **Przydatne strony:**  
 - https://archive.stsci.edu/pub/kepler/lightcurves/
